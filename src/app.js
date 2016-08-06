@@ -26,10 +26,6 @@ const App = React.createClass({
 
   render: function() {
     return (
-      /*<div className={styles.wrapper} >
-        <h1><i className="fa fa-star"></i>
-        Environment: {__NODE_ENV__}</h1>
-      </div>*/
       <div style={ {height: '100%' } }>
         {this.content}
       </div>
