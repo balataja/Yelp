@@ -1,5 +1,5 @@
-Yelp Clone
- Things I've learned:
+##Yelp Clone
+######Things I've learned:
 -CSS things: selectors using '&', Modularizing, Global vars
 -GMaps API
 -ENV variables
@@ -7,6 +7,6 @@ Yelp Clone
 -basic reactjs form practice
 -hot reloading
 
- Things I still don't quite understand:
+######Things I still don't quite understand:
 -CSS things: unicode-bidi, flex
 -PropTypes
