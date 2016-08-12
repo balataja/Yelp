@@ -40,16 +40,14 @@ export class Container extends React.Component {
                 <Map
                     google={this.props.google} 
                     onReady={this.onReady.bind(this)}
-                    visible={true} 
+                    visible={false} 
                     className={styles.wrapper} >
                     <Header />
                     <Sidebar 
                         title={"Restaurants"}
                         places={this.state.places} />
                     <div className={styles.content} >
-                        {this.state.places.map(place => {
-                            return (<div key={place.id}>{place.name}</div>)
-                        })}
+                        {this.props.children}
                     </div>
                 </Map>
             </div>
