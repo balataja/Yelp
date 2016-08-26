@@ -13,3 +13,5 @@
 - PropTypes
 - const {place} = this.props;
 - cloning a child element (google) to rerender in Container
+- contextTypes in Container component
+- Promises
